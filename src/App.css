@@ -1,0 +1,222 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+body{
+  overflow-x: hidden;
+}
+/* @import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css"; */
+
+  .dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+  }
+
+  .wishlist{
+    margin-right: 20px;
+  }
+
+  .banner{
+    /* width: 95%; */
+    /* margin-left: 40px; */
+    /* margin-top : "100px" */
+
+  }
+  .responsiveBanner{
+    display: none;
+  }
+
+  .logoDiv{
+    margin-right: 600px;
+  }
+  .hide{
+    display: none;
+  }
+
+  .responsiveInput{
+    display : none;
+  }
+
+  .responsiveBtn{
+    display: none;
+  }
+  .loader{
+    
+      margin-top: 70px;
+      margin-left: 700px;
+      margin-bottom: 100px
+  
+  }
+
+  .forumLoader{
+    
+    padding-top: 250px;
+    margin-left: 700px;
+    margin-bottom: 100px;
+    position: absolute;
+
+}
+
+.emptyWishlist{
+    padding-top: 250px;
+    margin-left: 550px;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 350px
+}
+:root {
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: rgba(36, 45, 73, 0.65);
+  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+  --hrColor: #cfcdcd;
+  --cardColor: rgba(255, 255, 255, 0.64);
+  --buttonBg: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
+  --inputColor: rgba(40, 52, 62, 0.07);
+  --photo: #4CB256;
+  --video: #4A4EB7;
+  --location: #EF5757;
+--shedule: #E1AE4A;
+}
+
+/* .navitem :hover{ 
+  padding: 5px;
+  border-radius: 10px;
+   background-color: aqua;
+   color: black;
+} */
+
+  @media only screen and (max-width : 1025px) {
+    .wishlist{
+      display: none;
+    }
+    .formInput{
+      display: none;
+    }
+    .formSubmit{
+      display: none;
+    }
+    .logoDiv{
+      /* margin-right: 100px; */
+    }
+  }
+
+  @media only screen and (max-width : 426px) {
+    
+    .logoDiv{
+      margin-right: 45px;
+    }
+    .menuBtn{
+      display: block;
+    }
+
+    .responsiveInput{
+      display : block;
+    }
+
+    .responsiveBtn{
+      display: block;
+    }
+
+  
+
+    .banner{
+      /* margin-left: 10px; */
+      display: none;
+    }
+
+    .responsiveBanner{
+      display: block;
+    }
+
+    .menuContent{
+      display: block;
+    }
+    .loader{
+    
+      margin-top: 90px;
+      margin-left: 170px;
+      margin-bottom: 100px
+  
+  }
+  .forumLoader{
+    
+    padding-top: 300px;
+    margin-left: 170px;
+    margin-bottom: 100px
+
+}
+
+.emptyWishlist{
+  padding-top: 250px;
+  margin-left: 60px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 350px
+}
+  }
+
+
+  @media only screen and (max-width : 376px) {
+    
+    .loader{
+    
+      margin-top: 130px;
+      margin-left: 140px;
+      margin-bottom: 100px
+  
+  }
+
+  .loginModalDiv{
+    /* display: none; */
+  }
+
+   
+  .forumLoader{
+    
+    padding-top: 330px;
+    margin-left: 150px;
+    margin-bottom: 100px
+
+}
+
+.emptyWishlist{
+  padding-top: 250px;
+  margin-left: 40px;
+  width: 280px;
+  height: 200px;
+  margin-bottom: 350px
+}
+  }
+
+  @media only screen and (max-width : 321px) {
+    
+    .loader{
+    
+      margin-top: 130px;
+      margin-left: 115px;
+      margin-bottom: 100px
+  
+  }
+
+  .forumLoader{
+    
+    padding-top: 350px;
+    margin-left: 130px;
+    margin-bottom: 100px;
+    /* position: absolute; */
+
+}
+
+.emptyWishlist{
+  padding-top: 250px;
+  margin-left: 20px;
+  width: 250px;
+  height: 200px;
+  margin-bottom: 350px
+}
+  
+  }
